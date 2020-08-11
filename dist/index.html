@@ -13,10 +13,12 @@
 
     <body>
         <header>
-            <nav class="nav">
-                <img src="./images/logo.svg" alt="Insure Logo" class="nav__logo" />
-                <img src="./images/icon-hamburger.svg" alt="menu" class="hamburger" />
-                <ul class="navbar">
+            <nav class="navbar">
+                <div class="navbar__container">
+                    <img src="./images/logo.svg" alt="Insure Logo" />
+                    <img src="./images/icon-hamburger.svg" alt="menu" class="navbar__hamburger" />
+                </div>
+                <ul class="navbar__items">
                     <li class="navbar__item">
                         <a href="#!" class="navbar__link">How We Work</a>
                     </li>
@@ -26,9 +28,10 @@
                     <li class="navbar__item">
                         <a href="#!" class="navbar__link">Account</a>
                     </li>
-                    <li class="navbar__item">
-                        <a href="#!" class="navbar__link">View Plans</a>
+                    <li class="navbar__item active">
+                        <a href="#!" class="navbar__link active">View Plans</a>
                     </li>
+                    <img src="./images/bg-pattern-mobile-nav.svg" alt="" class="pattern">
                 </ul>
             </nav>
         </header>
