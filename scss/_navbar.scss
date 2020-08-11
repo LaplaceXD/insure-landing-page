@@ -45,9 +45,16 @@
         text-align: center;
         padding: 1em;
         overflow: hidden;
+        color: white;
 
-        &.active {
-            outline: 2px solid white;
+        &--plans {
+            border: 2px solid white;
+            transition: background-color 350ms ease, color 350ms ease;
+
+            &:hover {
+                background-color: white;
+                color: $neutral-accent-color;
+            }
         }
 
         &:nth-child(1) {
@@ -71,9 +78,14 @@
 
         &.active {
             cursor: initial;
+            border-bottom: 2px solid white;
+        }
+
+        &--plans {
+            color: inherit;
 
             &:hover {
-                border: none;
+                border-bottom: none;
             }
         }
     }

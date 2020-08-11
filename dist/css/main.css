@@ -45,6 +45,7 @@ button {
 }
 
 footer {
+  margin-top: 8em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,10 +140,18 @@ footer hr {
   text-align: center;
   padding: 1em;
   overflow: hidden;
+  color: white;
 }
 
-.navbar__item.active {
-  outline: 2px solid white;
+.navbar__item--plans {
+  border: 2px solid white;
+  -webkit-transition: background-color 350ms ease, color 350ms ease;
+  transition: background-color 350ms ease, color 350ms ease;
+}
+
+.navbar__item--plans:hover {
+  background-color: white;
+  color: #2b272f;
 }
 
 .navbar__item:nth-child(1) {
@@ -167,10 +176,15 @@ footer hr {
 
 .navbar__link.active {
   cursor: initial;
+  border-bottom: 2px solid white;
 }
 
-.navbar__link.active:hover {
-  border: none;
+.navbar__link--plans {
+  color: inherit;
+}
+
+.navbar__link--plans:hover {
+  border-bottom: none;
 }
 
 .nav-active {
@@ -369,6 +383,15 @@ footer hr {
 
 .heading__icon {
   margin: 0 0.5em;
+  -webkit-transition: -webkit-filter 350ms ease;
+  transition: -webkit-filter 350ms ease;
+  transition: filter 350ms ease;
+  transition: filter 350ms ease, -webkit-filter 350ms ease;
+}
+
+.heading__icon:hover {
+  -webkit-filter: brightness(0);
+          filter: brightness(0);
 }
 
 .footer-links {
@@ -410,5 +433,13 @@ footer hr {
 .footer-links__link {
   color: black;
   text-decoration: none;
+  -webkit-transition: -webkit-text-decoration 350ms ease;
+  transition: -webkit-text-decoration 350ms ease;
+  transition: text-decoration 350ms ease;
+  transition: text-decoration 350ms ease, -webkit-text-decoration 350ms ease;
+}
+
+.footer-links__link:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */

@@ -17,6 +17,11 @@
 
     &__icon {
         margin: 0 0.5em;
+        transition: filter 350ms ease;
+
+        &:hover {
+            filter: brightness(0);
+        }
     }
 }
 
@@ -52,5 +57,10 @@
         @extend .footer-links__header;
         color: black;
         text-decoration: none;
+        transition: text-decoration 350ms ease;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
