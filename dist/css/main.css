@@ -183,7 +183,7 @@ button {
   margin-bottom: 2em;
 }
 
-.landing__btn {
+.landing__btn, .remarks__btn {
   font-family: "Karla", sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -194,7 +194,7 @@ button {
   padding: 0.75em 2em;
 }
 
-.landing__btn:hover {
+.landing__btn:hover, .remarks__btn:hover {
   color: #2b272f;
   background-color: white;
 }
@@ -270,5 +270,39 @@ button {
 .cards .card__title {
   font-size: 1.75rem;
   margin-bottom: 1em;
+}
+
+.remarks {
+  margin: auto;
+  padding: 5.5em 0;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: #2d2640;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.remarks__title {
+  margin-bottom: 1em;
+  padding: 0 0.5em;
+}
+
+.remarks__pattern {
+  z-index: -1;
+  width: 12em;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 /*# sourceMappingURL=main.css.map */
