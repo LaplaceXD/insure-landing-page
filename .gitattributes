@@ -1,0 +1,4 @@
+dist/css/*.css linguist-vendored=false
+dist/js/*.js linguist-vendored=false
+dist/*.html linguist-vendored=false
+scss/*.scss linguist-vendored=false
