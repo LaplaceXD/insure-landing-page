@@ -39,6 +39,23 @@ button {
     border: none;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: $neutral-color;
+    position: relative;
+    z-index: 1;
+
+    .footer-pattern {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
 @import "navbar";
 @import "landing";
 @import "cards";
