@@ -115,12 +115,12 @@ footer hr {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
+  -webkit-transform: translateY(-120%);
+          transform: translateY(-120%);
   -webkit-transition: -webkit-transform 500ms ease;
   transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease;
   transition: transform 500ms ease, -webkit-transform 500ms ease;
-  -webkit-transform: translateY(-120%);
-          transform: translateY(-120%);
 }
 
 .navbar__items.active {
@@ -146,8 +146,8 @@ footer hr {
 
 .navbar__item--plans {
   border: 2px solid white;
-  -webkit-transition: background-color 350ms ease, color 350ms ease;
-  transition: background-color 350ms ease, color 350ms ease;
+  -webkit-transition: background-color 500ms ease, color 500ms ease;
+  transition: background-color 500ms ease, color 500ms ease;
 }
 
 .navbar__item--plans:hover {
@@ -167,8 +167,8 @@ footer hr {
   font-weight: 400;
   letter-spacing: 0.1em;
   color: white;
-  -webkit-transition: border-bottom 250ms ease;
-  transition: border-bottom 250ms ease;
+  -webkit-transition: border-bottom 500ms ease;
+  transition: border-bottom 500ms ease;
 }
 
 .navbar__link:hover {
@@ -236,6 +236,8 @@ footer hr {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 0.75em 2em;
+  -webkit-transition: background-color 500ms ease, color 500ms ease;
+  transition: background-color 500ms ease, color 500ms ease;
 }
 
 .landing__btn:hover, .remarks__btn:hover {
@@ -384,10 +386,10 @@ footer hr {
 
 .heading__icon {
   margin: 0 0.5em;
-  -webkit-transition: -webkit-filter 350ms ease;
-  transition: -webkit-filter 350ms ease;
-  transition: filter 350ms ease;
-  transition: filter 350ms ease, -webkit-filter 350ms ease;
+  -webkit-transition: -webkit-filter 500ms ease;
+  transition: -webkit-filter 500ms ease;
+  transition: filter 500ms ease;
+  transition: filter 500ms ease, -webkit-filter 500ms ease;
 }
 
 .heading__icon:hover {
@@ -434,10 +436,10 @@ footer hr {
 .footer-links__link {
   color: black;
   text-decoration: none;
-  -webkit-transition: -webkit-text-decoration 350ms ease;
-  transition: -webkit-text-decoration 350ms ease;
-  transition: text-decoration 350ms ease;
-  transition: text-decoration 350ms ease, -webkit-text-decoration 350ms ease;
+  -webkit-transition: -webkit-text-decoration 500ms ease;
+  transition: -webkit-text-decoration 500ms ease;
+  transition: text-decoration 500ms ease;
+  transition: text-decoration 500ms ease, -webkit-text-decoration 500ms ease;
 }
 
 .footer-links__link:hover {

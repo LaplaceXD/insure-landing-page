@@ -24,8 +24,8 @@
         flex-direction: column;
         align-items: center;
         overflow: hidden;
-        transition: transform 500ms ease;
         transform: translateY(-120%);
+        transition: transform 500ms ease;
 
         &.active {
             transform: translateY(0);
@@ -49,7 +49,7 @@
 
         &--plans {
             border: 2px solid white;
-            transition: background-color 350ms ease, color 350ms ease;
+            transition: background-color 500ms ease, color 500ms ease;
 
             &:hover {
                 background-color: white;
@@ -70,7 +70,7 @@
         font-weight: 400;
         letter-spacing: 0.1em;
         color: white;
-        transition: border-bottom 250ms ease;
+        transition: border-bottom 500ms ease;
 
         &:hover {
             border-bottom: 2px solid white;

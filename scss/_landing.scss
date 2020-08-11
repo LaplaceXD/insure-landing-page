@@ -34,6 +34,7 @@
         text-transform: uppercase;
         letter-spacing: 0.1em;
         padding: 0.75em 2em;
+        transition: background-color 500ms ease, color 500ms ease;
 
         &:hover {
             color: $neutral-accent-color;
