@@ -52,8 +52,9 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #fafafa;
   position: relative;
   z-index: 1;
@@ -65,6 +66,11 @@ footer .footer-pattern {
   width: 100%;
   top: 0;
   left: 0;
+}
+
+footer hr {
+  background-color: #837d87;
+  width: 100%;
 }
 
 .navbar {
@@ -327,5 +333,41 @@ footer .footer-pattern {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.container--footer {
+  width: 90%;
+  margin: 5em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading__icons {
+  margin: 1.5em 0 2em 0;
+}
+
+.heading__icon {
+  margin: 0 0.5em;
 }
 /*# sourceMappingURL=main.css.map */

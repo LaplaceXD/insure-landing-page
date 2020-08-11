@@ -42,7 +42,7 @@ button {
 footer {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     background-color: $neutral-color;
     position: relative;
     z-index: 1;
@@ -54,9 +54,15 @@ footer {
         top: 0;
         left: 0;
     }
+
+    hr {
+        background-color: $neutral-primary-color;
+        width: 100%;
+    }
 }
 
 @import "navbar";
 @import "landing";
 @import "cards";
 @import "remarks";
+@import "footer";
