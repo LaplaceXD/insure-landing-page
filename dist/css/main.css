@@ -29,6 +29,8 @@ main img {
 }
 
 .navbar__container {
+  position: relative;
+  z-index: 2;
   width: 90%;
   margin: auto;
   padding: 1.25em 0;
@@ -45,6 +47,7 @@ main img {
 
 .navbar__items {
   position: fixed;
+  z-index: 1;
   width: 100vw;
   height: calc(100vh - 72px);
   background-color: #2b272f;
@@ -60,6 +63,17 @@ main img {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
+}
+
+.navbar__items.active {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .navbar__item {
