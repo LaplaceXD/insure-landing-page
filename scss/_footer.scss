@@ -1,6 +1,6 @@
 .container--footer {
     width: 90%;
-    margin: 5em auto;
+    margin: 5em auto 3em auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,5 +17,40 @@
 
     &__icon {
         margin: 0 0.5em;
+    }
+}
+
+.footer-links {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__container {
+        text-align: center;
+    }
+
+    &__header {
+        font-family: $body-font;
+        font-weight: 700;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        color: $neutral-primary-color;
+        margin-bottom: 1.5em;
+    }
+
+    &__list {
+        list-style-type: none;
+        margin-bottom: 1.5em;
+    }
+
+    &__item {
+        margin-bottom: 0.25em;
+    }
+
+    &__link {
+        @extend .footer-links__header;
+        color: black;
+        text-decoration: none;
     }
 }
