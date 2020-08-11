@@ -1,10 +1,10 @@
 .navbar {
     width: 100vw;
     background-color: white;
+    position: relative;
+    z-index: 1;
 
     &__container {
-        position: relative;
-        z-index: 2;
         width: 90%;
         margin: auto;
         padding: 1.25em 0;
@@ -15,9 +15,8 @@
 
     &__items {
         position: fixed;
-        z-index: 1;
         width: 100vw;
-        height: calc(100vh - 72px);
+        height: 100vh;
         background-color: $neutral-accent-color;
         list-style-type: none;
         display: flex;
@@ -25,10 +24,17 @@
         align-items: center;
         overflow: hidden;
         transition: transform 500ms ease;
-        transform: translateY(-150%);
+        transform: translateY(-120%);
 
         &.active {
             transform: translateY(0);
+        }
+
+        .pattern {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
         }
     }
 
@@ -43,7 +49,7 @@
         }
 
         &:nth-child(1) {
-            margin-top: 2em;
+            margin-top: 8em;
         }
     }
 
@@ -68,13 +74,6 @@
                 border: none;
             }
         }
-    }
-
-    .pattern {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 100%;
     }
 }
 

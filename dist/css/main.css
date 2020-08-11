@@ -26,11 +26,11 @@ main img {
 .navbar {
   width: 100vw;
   background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .navbar__container {
-  position: relative;
-  z-index: 2;
   width: 90%;
   margin: auto;
   padding: 1.25em 0;
@@ -47,9 +47,8 @@ main img {
 
 .navbar__items {
   position: fixed;
-  z-index: 1;
   width: 100vw;
-  height: calc(100vh - 72px);
+  height: 100vh;
   background-color: #2b272f;
   list-style-type: none;
   display: -webkit-box;
@@ -67,13 +66,20 @@ main img {
   transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease;
   transition: transform 500ms ease, -webkit-transform 500ms ease;
-  -webkit-transform: translateY(-150%);
-          transform: translateY(-150%);
+  -webkit-transform: translateY(-120%);
+          transform: translateY(-120%);
 }
 
 .navbar__items.active {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+
+.navbar__items .pattern {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
 
 .navbar__item {
@@ -88,7 +94,7 @@ main img {
 }
 
 .navbar__item:nth-child(1) {
-  margin-top: 2em;
+  margin-top: 8em;
 }
 
 .navbar__link {
@@ -113,13 +119,6 @@ main img {
 
 .navbar__link.active:hover {
   border: none;
-}
-
-.navbar .pattern {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
 }
 
 .nav-active {
