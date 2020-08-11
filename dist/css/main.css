@@ -26,6 +26,11 @@ h2 {
   line-height: 1em;
 }
 
+h3 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
 p {
   font-family: "Karla", sans-serif;
   font-weight: 400;
@@ -217,5 +222,53 @@ button {
 .landing__pattern--left {
   top: 0;
   left: 0;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards hr {
+  margin-top: 10em;
+  width: 10em;
+  background-color: #2b272f;
+}
+
+.cards__heading {
+  margin: 1em 0 2em 0;
+}
+
+.cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 4.5em;
+}
+
+.cards .card__icon {
+  margin-bottom: 2.25em;
+}
+
+.cards .card__title {
+  font-size: 1.75rem;
+  margin-bottom: 1em;
 }
 /*# sourceMappingURL=main.css.map */

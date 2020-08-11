@@ -21,6 +21,11 @@ h2 {
     line-height: 1em;
 }
 
+h3 {
+    font-family: $heading-font;
+    font-weight: 400;
+}
+
 p {
     font-family: $body-font;
     font-weight: 400;
@@ -36,3 +41,4 @@ button {
 
 @import "navbar";
 @import "landing";
+@import "cards";

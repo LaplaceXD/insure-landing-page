@@ -1,0 +1,33 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    hr {
+        margin-top: 10em;
+        width: 10em;
+        background-color: $neutral-accent-color;
+    }
+
+    &__heading {
+        margin: 1em 0 2em 0;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 4.5em;
+
+        &__icon {
+            margin-bottom: 2.25em;
+        }
+
+        &__title {
+            font-size: 1.75rem;
+            margin-bottom: 1em;
+        }
+    }
+}
