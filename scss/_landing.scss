@@ -27,11 +27,17 @@
     &__btn {
         font-family: $body-font;
         font-size: 1rem;
+        font-weight: 700;
         color: white;
         border: 2px solid white;
         text-transform: uppercase;
         letter-spacing: 0.1em;
         padding: 0.75em 2em;
+
+        &:hover {
+            color: $neutral-accent-color;
+            background-color: white;
+        }
     }
 
     &__pattern {

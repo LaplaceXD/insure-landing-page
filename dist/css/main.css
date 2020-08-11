@@ -29,7 +29,7 @@ h2 {
 p {
   font-family: "Karla", sans-serif;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.75em;
 }
 
@@ -183,11 +183,17 @@ main img {
 .landing__btn {
   font-family: "Karla", sans-serif;
   font-size: 1rem;
+  font-weight: 700;
   color: white;
   border: 2px solid white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 0.75em 2em;
+}
+
+.landing__btn:hover {
+  color: #2b272f;
+  background-color: white;
 }
 
 .landing__pattern {
