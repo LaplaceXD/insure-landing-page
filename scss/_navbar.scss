@@ -43,13 +43,14 @@
         margin-bottom: 1em;
         text-align: center;
         padding: 1em;
+        overflow: hidden;
 
         &.active {
             outline: 2px solid white;
         }
 
         &:nth-child(1) {
-            margin-top: 8em;
+            margin-top: 4.5em;
         }
     }
 

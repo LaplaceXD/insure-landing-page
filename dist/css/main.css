@@ -87,6 +87,7 @@ main img {
   margin-bottom: 1em;
   text-align: center;
   padding: 1em;
+  overflow: hidden;
 }
 
 .navbar__item.active {
@@ -94,7 +95,7 @@ main img {
 }
 
 .navbar__item:nth-child(1) {
-  margin-top: 8em;
+  margin-top: 4.5em;
 }
 
 .navbar__link {
