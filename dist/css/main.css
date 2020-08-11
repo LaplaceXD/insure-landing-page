@@ -19,6 +19,26 @@ html {
   vertical-align: baseline;
 }
 
+h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1em;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.75em;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
 main img {
   width: 75%;
 }
@@ -124,5 +144,48 @@ main img {
 
 .nav-active {
   overflow: hidden;
+}
+
+.landing {
+  background-color: #2d2640;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing__img {
+  width: 100vw;
+}
+
+.landing__info {
+  margin: 6em 0;
+  width: 90%;
+  color: white;
+  text-align: center;
+}
+
+.landing__header {
+  margin-bottom: 0.4em;
+}
+
+.landing__paragraph {
+  margin-bottom: 2em;
+}
+
+.landing__btn {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  color: white;
+  border: 2px solid white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.75em 2em;
 }
 /*# sourceMappingURL=main.css.map */

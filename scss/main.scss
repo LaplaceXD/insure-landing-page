@@ -1,4 +1,4 @@
-@import 'config';
+@import "config";
 
 *,
 *::before,
@@ -14,8 +14,29 @@ html {
     vertical-align: baseline;
 }
 
+h2 {
+    font-family: $heading-font;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1em;
+}
+
+p {
+    font-family: $body-font;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.75em;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+}
+
 main img {
     width: 75%;
 }
 
-@import 'navbar';
+@import "navbar";
+@import "landing";
