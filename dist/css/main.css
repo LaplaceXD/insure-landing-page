@@ -39,15 +39,11 @@ button {
   border: none;
 }
 
-main img {
-  width: 75%;
-}
-
 .navbar {
   width: 100vw;
   background-color: white;
   position: relative;
-  z-index: 1;
+  z-index: 3;
 }
 
 .navbar__container {
@@ -67,6 +63,7 @@ main img {
 
 .navbar__items {
   position: fixed;
+  z-index: 2;
   width: 100vw;
   height: 100vh;
   background-color: #2b272f;
@@ -166,7 +163,8 @@ main img {
 }
 
 .landing__info {
-  padding: 6em 2em;
+  padding: 6em 0;
+  width: 90%;
   color: white;
   text-align: center;
   position: relative;
@@ -194,6 +192,16 @@ main img {
 .landing__btn:hover {
   color: #2b272f;
   background-color: white;
+}
+
+.landing__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
 }
 
 .landing__pattern {
