@@ -27,5 +27,10 @@
         position: absolute;
         top: 0;
         right: 0;
+
+        &.desktop {
+            display: none;
+            visibility: hidden;
+        }
     }
 }

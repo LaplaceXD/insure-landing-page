@@ -181,4 +181,39 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .remarks {
+        max-width: 1216px;
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+        padding: 5em;
+        margin: 8em auto 12em auto;
+
+        &__title {
+            padding: 0;
+            margin-bottom: 0;
+            width: 54%;
+            font-size: 4rem;
+        }
+
+        &__btn {
+            font-size: 1.1rem;
+            padding: 0.75em 2.25em;
+        }
+
+        &__pattern {
+            width: 53%;
+
+            &.mobile {
+                display: none;
+                visibility: hidden;
+            }
+
+            &.desktop {
+                visibility: visible;
+                display: initial;
+            }
+        }
+    }
 }
