@@ -219,7 +219,7 @@
 
     footer {
         .footer-pattern {
-            width: 35%;
+            width: 40%;
 
             &.mobile {
                 display: none;
@@ -236,7 +236,7 @@
     .container--footer {
         max-width: 1280px;
         padding: 0 2em;
-        margin-top: 4em;
+        margin-top: 4.5em;
     }
 
     .heading {
@@ -250,4 +250,26 @@
         }
     }
     
+    .footer-links {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 4em;
+        width: 100%;
+
+        &__container {
+            text-align: left;
+            width: 25%;
+        }
+
+        &__header {
+            font-size: 0.85rem;
+            letter-spacing: 0.1em;
+            margin-bottom: 2.5em;
+        }
+
+        &__item {
+            margin-bottom: 0.75em;
+        }
+    }
 }
