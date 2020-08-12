@@ -7,5 +7,80 @@
 }
 
 @include viewport-size(desktop) {
+    .navbar {
+        z-index: 0;
+        padding: 0.5em 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__container {
+            margin: 0;
+            width: auto;
+        }
+
+        &__hamburger {
+            display: none;
+        }
+
+        &__items {
+            position: initial;
+            background: none;
+            width: 50%;
+            height: auto;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            transform: translateY(0);
+
+            .pattern {
+                display: none;
+            }
+        }
+
+        &__item {
+            width: auto;
+            margin-bottom: 0;
+            margin-left: 0.75em;
+
+            &--plans {
+                padding: 0.75em 1.5em;
+                border: 2px solid $neutral-accent-color;
+
+                &:hover {
+                    background-color: $neutral-accent-color;
+                    a {
+                        color: white;
+                    }
+                }
+
+                a {
+                    color: $neutral-accent-color;
+                }
+            }
+
+            &:nth-child(1) {
+                margin-top: 0;
+            }
+
+            &:nth-child(4) {
+                margin-left: 1.5em;
+            }
+        }
+
+        &__link {
+            font-weight: 700;
+            font-size: 1rem;
+            color: $neutral-primary-color;
+            transition: color 500ms ease;
+
+            &:hover,
+            &.active {
+                color: $neutral-accent-color;
+                border-bottom: none;
+            }
+        }
+    }
+
     
 }
