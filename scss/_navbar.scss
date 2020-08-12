@@ -53,7 +53,14 @@
 
             &:hover {
                 background-color: white;
-                color: $neutral-accent-color;
+
+                a {
+                    color: $neutral-accent-color;
+
+                    &:hover {
+                        border-bottom: none;
+                    }
+                }
             }
         }
 
@@ -79,14 +86,6 @@
         &.active {
             cursor: initial;
             border-bottom: 2px solid white;
-        }
-
-        &--plans {
-            color: inherit;
-
-            &:hover {
-                border-bottom: none;
-            }
         }
     }
 }
