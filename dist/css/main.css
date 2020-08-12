@@ -271,6 +271,11 @@ footer hr {
   left: 0;
 }
 
+.landing__pattern.desktop {
+  display: none;
+  visibility: hidden;
+}
+
 .cards {
   display: -webkit-box;
   display: -ms-flexbox;

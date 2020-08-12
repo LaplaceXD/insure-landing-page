@@ -61,5 +61,10 @@
             top: 0;
             left: 0;
         }
+
+        &.desktop {
+            display: none;
+            visibility: hidden;
+        }
     }
 }
