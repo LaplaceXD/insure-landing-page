@@ -19,6 +19,10 @@ html {
   vertical-align: baseline;
 }
 
+header {
+  background-color: white;
+}
+
 h2 {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
@@ -532,12 +536,6 @@ footer hr {
 
 .footer-links__link:hover {
   text-decoration: underline;
-}
-
-*.fade-in {
-  -webkit-transform: translateY(-20%);
-          transform: translateY(-20%);
-  opacity: 0;
 }
 
 @-webkit-keyframes fade-in {
