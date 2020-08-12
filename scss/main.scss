@@ -55,6 +55,11 @@ footer {
         width: 100%;
         top: 0;
         left: 0;
+
+        &.desktop {
+            display: hidden;
+            visibility: hidden;
+        }
     }
 
     hr {

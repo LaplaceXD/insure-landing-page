@@ -217,5 +217,20 @@
         }
     }
 
+    footer {
+        .footer-pattern {
+            width: 40%;
+
+            &.mobile {
+                display: none;
+                visibility: hidden;
+            }
+
+            &.desktop {
+                display: initial;
+                visibility: visible;
+            }
+        }
+    }
     
 }

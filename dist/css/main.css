@@ -69,6 +69,11 @@ footer .footer-pattern {
   left: 0;
 }
 
+footer .footer-pattern.desktop {
+  display: hidden;
+  visibility: hidden;
+}
+
 footer hr {
   background-color: #837d87;
   width: 100%;
@@ -728,6 +733,17 @@ footer hr {
   .remarks__pattern.desktop {
     visibility: visible;
     display: initial;
+  }
+  footer .footer-pattern {
+    width: 40%;
+  }
+  footer .footer-pattern.mobile {
+    display: none;
+    visibility: hidden;
+  }
+  footer .footer-pattern.desktop {
+    display: initial;
+    visibility: visible;
   }
 }
 /*# sourceMappingURL=main.css.map */
