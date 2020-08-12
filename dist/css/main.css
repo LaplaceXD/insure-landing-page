@@ -576,6 +576,9 @@ footer hr {
   h2 {
     font-size: 4.5rem;
   }
+  p {
+    font-size: 1.1rem;
+  }
   .landing {
     position: relative;
     -webkit-box-orient: horizontal;
@@ -637,6 +640,37 @@ footer hr {
   .landing__pattern.desktop {
     display: initial;
     visibility: visible;
+  }
+  .cards {
+    margin: auto;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 90%;
+    padding: 0 2em;
+    margin-top: 10em;
+    margin-bottom: 6em;
+    max-width: 1280px;
+  }
+  .cards__heading {
+    margin-top: 1.25em;
+    margin-bottom: 1.5em;
+  }
+  .cards .card {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: left;
+    width: 32%;
+  }
+  .container--card {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 /*# sourceMappingURL=main.css.map */
