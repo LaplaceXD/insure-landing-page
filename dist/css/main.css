@@ -336,6 +336,7 @@ footer hr {
   color: white;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 .remarks__title {
@@ -474,6 +475,12 @@ footer hr {
     -webkit-transform: translateY(0%);
             transform: translateY(0%);
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .navbar__items .pattern {
+    bottom: -15em;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,11 @@
+@include viewport-size(tablet) {
+    .navbar__items {
+        .pattern {
+            bottom: -15em;
+        }
+    }
+}
+
+@include viewport-size(desktop) {
+    
+}
