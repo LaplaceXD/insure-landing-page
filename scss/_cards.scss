@@ -17,7 +17,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90%;
         text-align: center;
         margin-bottom: 4.5em;
 
@@ -30,4 +29,10 @@
             margin-bottom: 1em;
         }
     }
+}
+.container--card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }

@@ -7,6 +7,14 @@
 }
 
 @include viewport-size(desktop) {
+    h2 {
+        font-size: 4.5rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
     .navbar {
         z-index: 0;
         padding: 0.5em 2em;
@@ -80,14 +88,6 @@
                 border-bottom: none;
             }
         }
-    }
-
-    h2 {
-        font-size: 4.5rem;
-    }
-
-    p {
-        font-size: 1.1rem;
     }
 
     .landing {
@@ -178,7 +178,7 @@
 
     .container--card {
         width: 100%;
-        display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
 
@@ -216,4 +216,6 @@
             }
         }
     }
+
+
 }
