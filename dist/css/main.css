@@ -158,6 +158,7 @@ footer hr {
 }
 
 .navbar__item--plans:hover {
+  cursor: pointer;
   background-color: white;
 }
 
@@ -251,6 +252,7 @@ footer hr {
 }
 
 .landing__btn:hover, .remarks__btn:hover {
+  cursor: pointer;
   color: #2b272f;
   background-color: white;
 }
@@ -431,6 +433,7 @@ footer hr {
 }
 
 .heading__icon:hover {
+  cursor: pointer;
   -webkit-filter: brightness(0);
           filter: brightness(0);
 }
@@ -675,7 +678,7 @@ footer hr {
             align-items: flex-start;
     width: 90%;
     padding: 0 2em;
-    margin-top: 10em;
+    margin-top: 8em;
     margin-bottom: 6em;
     max-width: 1280px;
   }

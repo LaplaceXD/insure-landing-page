@@ -20,6 +20,7 @@
         transition: filter 500ms ease;
 
         &:hover {
+            cursor: pointer;
             filter: brightness(0);
         }
     }
