@@ -538,6 +538,12 @@ footer hr {
   text-decoration: underline;
 }
 
+*.fade-in {
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+  opacity: 0;
+}
+
 @-webkit-keyframes fade-in {
   from {
     -webkit-transform: translateY(-20%);
