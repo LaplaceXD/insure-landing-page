@@ -82,5 +82,72 @@
         }
     }
 
-    
+    h2 {
+        font-size: 4.5rem;
+    }
+
+    .landing {
+        position: relative;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 2em;
+
+        &__wrapper {
+            justify-content: flex-start;
+            margin-right: 2em;
+        }
+
+        hr {
+            display: inherit;
+            width: 35%;
+            margin-bottom: 4em;
+        }
+
+        &__info {
+            padding-top: 6em;
+            max-width: 640px;
+            text-align: left;
+            width: 94%;
+        }
+
+        &__header {
+            width: 90%;
+        }
+
+        &__paragraph {
+            margin-bottom: 3em;
+        }
+
+        &__img {
+            position: relative;
+            top: 6em;
+            width: auto;
+        }
+
+        &__pattern {
+            width: auto;
+
+            &--right {
+                right: 0;
+                top: 0;
+                bottom: initial;
+            }
+
+            &--left {
+                bottom: -22em;
+                top: initial;
+            }
+
+            &.mobile {
+                display: none;
+                visibility: hidden;
+            }
+
+            &.desktop {
+                display: initial;
+                visibility: visible;
+            }
+        }
+    }
 }
