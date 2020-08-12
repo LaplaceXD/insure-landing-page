@@ -10,6 +10,7 @@
     }
 
     &__heading {
+        color: $accent-color;
         margin: 1em 0 2em 0;
     }
 
@@ -20,16 +21,22 @@
         text-align: center;
         margin-bottom: 4.5em;
 
+        p {
+            color: $neutral-primary-color;
+        }
+
         &__icon {
             margin-bottom: 2.25em;
         }
 
         &__title {
+            color: $accent-color;
             font-size: 1.75rem;
             margin-bottom: 1em;
         }
     }
 }
+
 .container--card {
     width: 90%;
     display: flex;

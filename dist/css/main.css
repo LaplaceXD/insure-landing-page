@@ -300,6 +300,7 @@ footer hr {
 }
 
 .cards__heading {
+  color: #2d2640;
   margin: 1em 0 2em 0;
 }
 
@@ -318,11 +319,16 @@ footer hr {
   margin-bottom: 4.5em;
 }
 
+.cards .card p {
+  color: #837d87;
+}
+
 .cards .card__icon {
   margin-bottom: 2.25em;
 }
 
 .cards .card__title {
+  color: #2d2640;
   font-size: 1.75rem;
   margin-bottom: 1em;
 }
