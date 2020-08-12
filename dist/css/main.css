@@ -133,6 +133,7 @@ footer hr {
   bottom: 0;
   right: 0;
   width: 100%;
+  z-index: -1;
 }
 
 .navbar__item {
@@ -152,7 +153,14 @@ footer hr {
 
 .navbar__item--plans:hover {
   background-color: white;
+}
+
+.navbar__item--plans:hover a {
   color: #2b272f;
+}
+
+.navbar__item--plans:hover a:hover {
+  border-bottom: none;
 }
 
 .navbar__item:nth-child(1) {
@@ -178,14 +186,6 @@ footer hr {
 .navbar__link.active {
   cursor: initial;
   border-bottom: 2px solid white;
-}
-
-.navbar__link--plans {
-  color: inherit;
-}
-
-.navbar__link--plans:hover {
-  border-bottom: none;
 }
 
 .nav-active {
