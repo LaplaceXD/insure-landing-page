@@ -124,8 +124,8 @@ footer hr {
 }
 
 .navbar__items.active {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
+  -webkit-transform: translateY(-72px);
+          transform: translateY(-72px);
 }
 
 .navbar__items .pattern {
@@ -164,7 +164,7 @@ footer hr {
 }
 
 .navbar__item:nth-child(1) {
-  margin-top: 3.5em;
+  margin-top: 7em;
 }
 
 .navbar__link {
@@ -444,5 +444,37 @@ footer hr {
 
 .footer-links__link:hover {
   text-decoration: underline;
+}
+
+*.fade-in {
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+  opacity: 0;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=main.css.map */
