@@ -219,7 +219,7 @@
 
     footer {
         .footer-pattern {
-            width: 40%;
+            width: 35%;
 
             &.mobile {
                 display: none;
@@ -230,6 +230,23 @@
                 display: initial;
                 visibility: visible;
             }
+        }
+    }
+
+    .container--footer {
+        max-width: 1280px;
+        padding: 0 2em;
+        margin-top: 4em;
+    }
+
+    .heading {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 2em;
+
+        &__icons {
+            margin: 0;
         }
     }
     

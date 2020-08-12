@@ -735,7 +735,7 @@ footer hr {
     display: initial;
   }
   footer .footer-pattern {
-    width: 40%;
+    width: 35%;
   }
   footer .footer-pattern.mobile {
     display: none;
@@ -744,6 +744,25 @@ footer hr {
   footer .footer-pattern.desktop {
     display: initial;
     visibility: visible;
+  }
+  .container--footer {
+    max-width: 1280px;
+    padding: 0 2em;
+    margin-top: 4em;
+  }
+  .heading {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    padding-bottom: 2em;
+  }
+  .heading__icons {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
